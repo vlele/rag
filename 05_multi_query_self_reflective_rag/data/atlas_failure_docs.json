@@ -1,0 +1,38 @@
+[
+  {
+    "id": "timeline_report",
+    "aspect": "timeline",
+    "title": "Atlas migration timeline review",
+    "text": "The Atlas migration slipped by six weeks after the vendor API certification arrived late. Teams then compressed testing to recover the schedule."
+  },
+  {
+    "id": "ownership_memo",
+    "aspect": "ownership",
+    "title": "Ownership memo",
+    "text": "Responsibility for Atlas was split between the infrastructure group and the application team. No single lead had authority to resolve cross-team blockers quickly."
+  },
+  {
+    "id": "technical_postmortem",
+    "aspect": "technical",
+    "title": "Technical postmortem",
+    "text": "A memory leak in the authentication service and a schema mismatch in the migration pipeline caused repeated deployment failures during integration."
+  },
+  {
+    "id": "stakeholder_review",
+    "aspect": "stakeholder",
+    "title": "Stakeholder review",
+    "text": "Late compliance requests changed the project scope after development had already started. Executive stakeholders also approved new reporting requirements in the final month."
+  },
+  {
+    "id": "budget_note",
+    "aspect": "budget",
+    "title": "Budget note",
+    "text": "The project exceeded its cloud budget after repeated re-runs of the migration environment. The cost overrun was treated as a consequence rather than the root cause."
+  },
+  {
+    "id": "launch_party",
+    "aspect": "noise",
+    "title": "Launch celebration draft",
+    "text": "The communications team prepared a launch event and internal announcement materials for the expected go-live date."
+  }
+]

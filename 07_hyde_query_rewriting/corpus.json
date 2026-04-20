@@ -1,0 +1,27 @@
+[
+  {
+    "id": "release_comms",
+    "title": "Upgrade communication checklist",
+    "text": "Before major upgrades, notify customers about the release window, expected downtime, new version highlights, and support contacts."
+  },
+  {
+    "id": "session_persistence",
+    "title": "Session persistence during rolling deployments",
+    "text": "To preserve login state during rolling deployments, enable load balancer session affinity, use sticky sessions only when necessary, and store session data in Redis so users are not signed out when instances restart."
+  },
+  {
+    "id": "cache_invalidation",
+    "title": "Cache invalidation after deployment",
+    "text": "After each deployment, flush stale edge cache entries and warm the CDN with high-traffic product pages to avoid serving old assets."
+  },
+  {
+    "id": "database_migration",
+    "title": "Database migration rollback plan",
+    "text": "For schema migrations, create a reversible migration, snapshot the database, and verify backward compatibility before promoting the release."
+  },
+  {
+    "id": "support_escalation",
+    "title": "Customer support escalation rules",
+    "text": "Escalate enterprise customer incidents when multiple accounts report the same error, when the issue affects billing, or when a service-level agreement is at risk."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "D01",
+    "title": "Standard Denial Waiting Period",
+    "text": "When a client asks what to do six months after a denial because the credit score improved, the standard underwriting policy says applicants normally must wait twelve months before submitting a new mortgage application. The rule applies unless a specific exception memo or updated eligibility pathway is documented.",
+    "teaching_note": "An older broad policy. It has strong lexical overlap with the question but is not sufficient because it points to exceptions rather than describing the fast-track exception."
+  },
+  {
+    "id": "D02",
+    "title": "Six-Month Fast-Track Credit Score Memo",
+    "text": "The 6-Month Fast-Track memo allows a denied applicant to reopen the file after six months when the borrower credit score has improved by at least 60 points, the debt-to-income ratio is below 43 percent, and updated income documentation is present.",
+    "teaching_note": "The best answer: it matches the improved-score, six-month, exception-policy scenario."
+  },
+  {
+    "id": "D03",
+    "title": "Identity Verification Hold",
+    "text": "Applications flagged for suspected identity fraud remain on a twelve-month hold even if the credit score changes. The fraud hold can only be lifted by the risk review unit.",
+    "teaching_note": "Plausible but wrong for the scenario because fraud is not mentioned."
+  },
+  {
+    "id": "D04",
+    "title": "Appeals Board Checklist",
+    "text": "Borrowers may appeal an underwriting decision by submitting updated income, employment history, and credit explanation letters. The appeal board does not automatically waive the waiting period.",
+    "teaching_note": "Related process information, but less directly relevant than D02."
+  },
+  {
+    "id": "D05",
+    "title": "Current First-Time Buyer Rates",
+    "text": "The current first-time buyer mortgage rate is 6.75 percent APR for qualified borrowers. Rate sheets are updated every business day at 9 AM.",
+    "teaching_note": "A common distractor in financial-services knowledge bases."
+  },
+  {
+    "id": "D06",
+    "title": "Credit Score Notice Requirements",
+    "text": "When a credit score affects a lending decision, the client must receive a notice explaining the score source, the major factors, and the right to dispute incorrect information.",
+    "teaching_note": "Relevant to compliance but not the reopen decision."
+  },
+  {
+    "id": "D07",
+    "title": "Manual Underwriting Escalation",
+    "text": "Manual underwriting escalation is used when automated scoring is unavailable or when a policy exception requires senior review. Escalations should cite the governing memo and the specific eligibility criteria.",
+    "teaching_note": "Useful supporting context after D02 is identified."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "P01",
+    "title": "Medical Documentation After Missed Exam Records",
+    "text": "Students often ask what conditions allow medical documentation after a missed exam to qualify for a make-up exam. The records office accepts medical documentation after an exam to update attendance records. Documentation alone does not change a grade and does not create eligibility for a make-up exam.",
+    "label": "lexical_decoy"
+  },
+  {
+    "id": "P02",
+    "title": "Illness Make-Up Exam Policy",
+    "text": "If a student misses an exam because of illness, the student may qualify for a make-up exam by submitting medical documentation within 48 hours of the missed exam. After verification, the instructor must offer a make-up exam window.",
+    "label": "best_answer"
+  },
+  {
+    "id": "P03",
+    "title": "Late Assignment Extensions",
+    "text": "Medical documentation may support an extension for late assignments. The extension process for homework is separate from the exam make-up process.",
+    "label": "partial_related"
+  },
+  {
+    "id": "P04",
+    "title": "Travel-Related Exam Conflicts",
+    "text": "Students who know about a travel conflict before an exam must request approval at least seven days in advance. Last-minute travel conflicts do not qualify for make-up exams.",
+    "label": "wrong_condition"
+  },
+  {
+    "id": "P05",
+    "title": "Weather Closure Exam Rules",
+    "text": "When campus is closed for severe weather during a scheduled exam, all affected students receive a make-up exam date automatically. Medical documentation is not required for weather closures.",
+    "label": "alternative_reason"
+  },
+  {
+    "id": "P06",
+    "title": "Grade Appeal Deadline",
+    "text": "Students may appeal final grades within ten business days after grades are posted. Appeals must identify grading errors and include supporting evidence.",
+    "label": "irrelevant"
+  },
+  {
+    "id": "P07",
+    "title": "Accessibility Testing Accommodation",
+    "text": "Students with approved accommodations may take exams in the testing center. Accommodation letters must be on file before the exam date.",
+    "label": "adjacent_but_not_answer"
+  }
+]

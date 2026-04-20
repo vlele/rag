@@ -1,0 +1,5 @@
+Dorm Network Guide
+
+If a student's dorm WiFi drops, the first step is to reconnect and forget/rejoin the network from the device.
+For repeated dorm WiFi outages that continue for more than 15 minutes, the student should submit a help desk ticket with the building name and room number.
+Students should not power-cycle building-managed access points; those devices are maintained centrally by campus IT.

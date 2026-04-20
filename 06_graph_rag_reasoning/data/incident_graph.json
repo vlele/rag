@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {"id": "vendor_patch", "label": "Vendor patch"},
+    {"id": "auth_service", "label": "Authentication service"},
+    {"id": "mfa_rule", "label": "MFA rule"},
+    {"id": "student_portal", "label": "Student portal"},
+    {"id": "helpdesk_spike", "label": "Help desk ticket spike"},
+    {"id": "identity_cache", "label": "Identity cache"}
+  ],
+  "edges": [
+    {
+      "source": "vendor_patch",
+      "target": "auth_service",
+      "relation": "introduced_validation_change",
+      "evidence": "A vendor patch changed token validation behavior in the authentication service."
+    },
+    {
+      "source": "auth_service",
+      "target": "identity_cache",
+      "relation": "depends_on",
+      "evidence": "The authentication service depends on a cached identity token store for rapid login checks."
+    },
+    {
+      "source": "identity_cache",
+      "target": "mfa_rule",
+      "relation": "served_stale_tokens_to",
+      "evidence": "The stale identity cache fed expired tokens into the MFA rule evaluation step."
+    },
+    {
+      "source": "mfa_rule",
+      "target": "student_portal",
+      "relation": "blocked_login_to",
+      "evidence": "The MFA rule rejected the expired tokens and blocked student logins to the portal."
+    },
+    {
+      "source": "student_portal",
+      "target": "helpdesk_spike",
+      "relation": "triggered",
+      "evidence": "Portal login failures caused a sharp spike in help desk tickets."
+    }
+  ]
+}

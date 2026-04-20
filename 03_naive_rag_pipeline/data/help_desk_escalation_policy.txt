@@ -1,0 +1,5 @@
+Help Desk Escalation Policy
+
+Repeated dorm WiFi outages in the same residence hall are escalated after three outage tickets within a 24-hour period.
+Once that threshold is reached, the help desk forwards the case to Network Operations for infrastructure investigation.
+If the issue appears building-wide, Facilities is notified as a secondary stakeholder.

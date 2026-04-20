@@ -1,0 +1,40 @@
+{
+  "synthesis_case": {
+    "question": "What were the primary drivers of Apple's revenue growth last year?",
+    "passages": [
+      {
+        "title": "Market report",
+        "text": "Strong iPhone sales, particularly in emerging markets, remained a major driver of Apple's revenue growth."
+      },
+      {
+        "title": "Services review",
+        "text": "Apple's Services division experienced unprecedented growth, expanding by 20 percent year over year."
+      },
+      {
+        "title": "Operations note",
+        "text": "Apple's resilient logistics network minimized supply-chain disruption and helped preserve market share."
+      },
+      {
+        "title": "Noise passage",
+        "text": "The company also refreshed several retail store formats during the fiscal year."
+      }
+    ]
+  },
+  "disambiguation_case": {
+    "question": "What was the primary reason for choosing a multi-GPU training strategy for the Odyssey project?",
+    "passages": [
+      {
+        "title": "Project Odyssey: Final Architecture Review",
+        "text": "The final model for Odyssey had over 20 billion parameters. Training on a single GPU would have taken an estimated nine months. To reduce the training time to a feasible six-week window, a multi-GPU strategy was implemented."
+      },
+      {
+        "title": "General MLOps Best Practices",
+        "text": "While multi-GPU training can improve model accuracy through larger batch sizes, that was not the primary reason in the Odyssey project."
+      },
+      {
+        "title": "Project Apollo: Post-Mortem",
+        "text": "The earlier Apollo project used multi-GPU training primarily to handle very large medical images that would not fit into one GPU's memory."
+      }
+    ]
+  }
+}

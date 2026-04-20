@@ -1,0 +1,6 @@
+numpy>=1.24
+scikit-learn>=1.3
+# Optional for the repo-style script (optional_real_t5_fid.py):
+# transformers>=4.40
+# torch>=2.0
+# sentencepiece>=0.1.99  # required by T5Tokenizer; install alongside transformers

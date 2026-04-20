@@ -1,0 +1,5 @@
+Personal Router Advisory
+
+Students may reboot their own personal routers only if those devices are allowed by housing policy.
+Rebooting a personal router will not fix failures in the campus-managed dorm WiFi network.
+Campus-managed access points must only be restarted by Network Operations staff.
