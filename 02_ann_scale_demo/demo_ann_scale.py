@@ -34,11 +34,6 @@ def main() -> None:
     print(f"Recall@10 vs exact search:  {stats.recall_at_10:8.2f}")
     print(f"Precision@10 vs exact search:{stats.precision_at_10:7.2f}")
 
-    print("\nKey teaching point:")
-    print(
-        "Approximate search narrows the candidate pool before doing detailed scoring.\n"
-        "That is the central idea behind scalable vector search systems such as FAISS."
-    )
 
 
 if __name__ == "__main__":

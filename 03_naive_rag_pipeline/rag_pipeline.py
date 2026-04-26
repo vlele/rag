@@ -96,7 +96,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--query",
-        default="What should a student do after repeated dorm WiFi outages?",
+        default="What should a nurse do after repeated dorm WiFi outages?",
         help="Question to ask the tiny RAG system.",
     )
     parser.add_argument(

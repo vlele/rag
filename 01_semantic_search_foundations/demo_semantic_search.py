@@ -174,12 +174,6 @@ def main() -> None:
     pretty_print("--- Lexical ranking (BM25-style) ---", lexical_ranking, documents)
     pretty_print("--- Semantic ranking (tiny distributional space) ---", semantic_ranking, documents)
 
-    print("Key teaching point:")
-    print(
-        "- The lexical search finds documents sharing exact words such as 'network' and 'connection'.\n"
-        "- The semantic search also retrieves the WiFi ticket because the training corpus places\n"
-        "  'wifi', 'internet', 'network', and 'connectivity' near one another."
-    )
 
 
 if __name__ == "__main__":
